@@ -1,0 +1,44 @@
+API Restowe dla sklepu komputerowego.
+
+Dodaj produkt:
+POST /rest/products
+{
+	"name" : "Radeon 550",
+	"price" : "1500",
+	"category" : "Karty graficzne"
+}
+
+Wyœwietl wszystkie produkty:
+GET /rest/products
+
+Wyœwietl konkretny produkt:
+GET /rest/products/{productId}
+
+Aktualizuj informacje o produkcie:
+PUT /rest/products/{productId}
+{
+	"name" : "Radeon 550",
+	"price" : "1550",
+	"category" : "Karty graficzne"
+}
+
+Wyszukaj produkty po nazwie:
+GET /rest/products/byName/{productName} 
+
+Wyszukaj produkty po kategorii:
+GET /rest/products/byCategory/{productCategory} 
+
+Wyszukaj produkty po cenie (od "min" do "max"):
+GET /rest/products/byPrice/{min}/{max} 
+
+Dodaj komentarz do konkretnego produktu:
+POST /rest/products/{productId}/comments
+{
+	"content" : "Dobry sprzêt."
+}
+
+Wyœwietl komentarze konkretnego produktu:
+GET /rest/products/{productId}/comments
+
+Usuñ komentarz do konkretnego produktu:
+DELETE /rest/products/{productId}/comments/{commentId}

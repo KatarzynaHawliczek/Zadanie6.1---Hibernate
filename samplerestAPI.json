@@ -1,0 +1,351 @@
+{
+	"variables": [],
+	"info": {
+		"name": "API Restowe dla sklepu komputerowego",
+		"_postman_id": "d3222de9-fd86-46fa-acca-d0620d57c282",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"Radeon 550\",\n\t\"price\" : \"1500\",\n\t\"category\" : \"Karty graficzne\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"Radeon 570\",\n\t\"price\" : \"1600\",\n\t\"category\" : \"Karty graficzne\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"GeForce 1060\",\n\t\"price\" : \"1750\",\n\t\"category\" : \"Karty graficzne\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"HDD 512Gb\",\n\t\"price\" : \"500\",\n\t\"category\" : \"Dyski twarde\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"DDR 3 8GB\",\n\t\"price\" : \"200\",\n\t\"category\" : \"Pamięć RAM\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"Gigabyte GA\",\n\t\"price\" : \"1900\",\n\t\"category\" : \"Płyty główne\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"Gigabyte GA\",\n\t\"price\" : \"1900\",\n\t\"category\" : \"Płyty główne\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products/2",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products/2",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"Gigabyte GA\",\n\t\"price\" : \"1900\",\n\t\"category\" : \"Płyty główne\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products/1",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"Radeon 550\",\n\t\"price\" : \"1550\",\n\t\"category\" : \"Karty graficzne\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products/byName/Radeon 550",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products/byName/Radeon 550",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"Radeon 550\",\n\t\"price\" : \"1550\",\n\t\"category\" : \"Karty graficzne\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products/byCategory/Karty graficzne",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products/byCategory/Karty graficzne",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"Radeon 550\",\n\t\"price\" : \"1550\",\n\t\"category\" : \"Karty graficzne\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products/byPrice/1600/2000",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products/byPrice/1600/2000",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\" : \"Radeon 550\",\n\t\"price\" : \"1550\",\n\t\"category\" : \"Karty graficzne\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products/1/comments",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products/1/comments",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"content\" : \"Dobry sprzęt.\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products/1/comments",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products/1/comments",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"content\" : \"Bubel.\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products/3/comments",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products/3/comments",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"content\" : \"Najlepsza karta graficzna.\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products/1/comments",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products/1/comments",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"content\" : \"Najlepsza karta graficzna.\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/samplerestapp/rest/products/1/comments copy",
+			"request": {
+				"url": "http://localhost:8080/samplerestapp/rest/products/1/comments/2",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"content\" : \"Najlepsza karta graficzna.\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
